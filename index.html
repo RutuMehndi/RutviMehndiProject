@@ -3,100 +3,176 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <title>Henna By Rutvi</title>
     <style>
         body {
-            margin: 0;
-            justify-content: center;
-            align-items: center;
-            background-color: #f0f0f0;
-        }
-        header {
-            background-color: #ffe6cc; /* Dark header background */
-            color: #111;
-            text-align: center;
-            padding: 1rem;
-        }
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
 
 
-        .Card01{
-            padding: 4rem;
-        }
-        .Card02{
-            padding: 4rem;
-            text-align: left;
 
-        }
-        .Card03{
-            padding: 4rem;
-            background-color: #ffe6cc; /* Dark header background */
-            color: #111;
-            text-align: right;
+.Card01{
+    padding: 4rem;
+    width: 100%;
+    background-color: #ffe6cc; /* Dark header background */
 
-        }
+}
+.Card02{
+    padding: 4rem;
+    width: 100%;
+    text-align: left;
+    display: flex; /* Display children in a row */
+    align-items: center; /* Center items vertically */
+    background-color: #ffffff; /* Dark header background */
+}
+.Card03{
+    padding: 4rem;
+    width: 100%;
+    text-align: left;
+    display: flex; /* Display children in a row */
+    align-items: center; /* Center items vertically */
+    background-color: #ffe6cc; /* Dark header background */
 
-        .text-container-Brand-Hadding {
-            text-align: center;
-            /* max-width: 1200px; */
-            padding-right: 50px;
 
-            margin: 0 auto;
-            box-sizing: border-box;
-        }
-        .text-container-Designer-Hadding {
-            text-align: center;
-            /* max-width: 1200px; */
-            padding-left: 50px;
-            margin: 0 auto;
-            box-sizing: border-box;
-        }
-        .text-container {
-            /* max-width: 1200px; */
-            padding-right: 50px;
-            width: 50%;
-            /* margin: 0 auto; */
-            box-sizing: border-box;
-        }
-        .big-text {
-            font-size: 40px;
-            font-weight: bold;
-        }
+}
+.Card04{
+    padding: 4rem;
+    width: 100%;
+    text-align: left;
+    display: flex; /* Display children in a row */
+    align-items: center; /* Center items vertically */
+    background-color: #ffffff; /* Dark header background */
+}
+.Card05{
+    padding: 4rem;
+    width: 100%;
+    text-align: left;
+    display: flex; /* Display children in a row */
+    align-items: center; /* Center items vertically */
+    background-color: #ffe6cc; /* Dark header background */
+}
+.text-container-Brand-Hadding {
+    text-align: center;
+    /* max-width: 1200px; */
+    padding-right: 50px;
 
-        .small-text {
-            font-size: 14px;
-        }
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.text-container-Designer-Hadding {
+    text-align: center;
+    /* max-width: 1200px; */
+    padding-left: 50px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.text-container {
+    /* max-width: 1200px; */
+    padding-right: 50px;
+    width: 50%;
+    /* margin: 0 auto; */
+    box-sizing: border-box;
+}
+.big-text {
+    font-size: 40px;
+    font-weight: bold;
+}
 
-        .medium-text {
-            font-size: 24px;
-        }
+.small-text {
+    font-size: 14px;
+}
 
-        .Title-Heading-text {
-            font-size: 30px;
-            font-weight: bold;
+.medium-text {
+    font-size: 24px;
+}
 
-        }
+.Title-Heading-text {
+    font-size: 30px;
+    font-weight: bold;
 
-        .event-text {
-            font-size: 20px;
-            /* padding-top: 15px; */
-            /* margin-top: 1px; */
-        }
+}
 
-        .mahndi-text {
-            font-size: 20px;
-            /* padding-top: 15px; */
-            /* margin-top: 1px; */
-        }
-        /* .image {
-            width: 500px;
-            max-width: 500px;
-        } */
- 
+.event-text {
+    font-size: 20px;
+}
+
+.mahndi-text {
+    font-size: 20px;
+}
+
         
+
+        .text-div {
+            flex: 1; /* Take up remaining space */
+            padding: 20px;
+
+        }
+
+        .image-div {
+            flex: 1; /* Take up remaining space */
+            text-align: center;
+        }
+
+        ul {
+            padding-left: 20px;
+            list-style-type: none;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        img {
+            width: 500px;
+            height: 500px;
+        }
+        .footer {
+            background-color: #ffe6cc; /* Dark header background */
+
+            color: #111;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .footer-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 10px;
+        }
+
+        .footer-icon {
+            font-size: 24px;
+            color: #111;
+            transition: color 0.3s;
+        }
+
+        .footer-icon:hover {
+            color: #FFC107;
+        }
+        .inline-div {
+            display: inline-block; /* Display divs in the same line */
+        }
+        /* .photo-container {
+            display: flex;
+        } */
+
+        .photo {
+  
+            padding: 20px;
+            height: 70px;
+            margin: 70px;
+  
+        }
     </style>
 </head>
 <body>
-    <header>
+    <!-- <header> -->
     <div class="Card01">
 
         <div class="text-container-Brand-Hadding">
@@ -108,48 +184,91 @@
             <span class="medium-text">Rutvi</span>
         </div>
     </div>
-    </header>
+    <!-- </header> -->
+
+
 
 
     <div class="Card02">
-
-        <div class="text-container">
+        <div class="text-div">
             <span class="Title-Heading-text ">Mehndi for your life changing events</span>
+            <ul>
+                <li class="event-text">Wedding</li>
+                <li class="event-text">Baby Shower</li>
+                <li class="event-text">Parties</li>
+                <li class="event-text">Fastivals</li>
+                <li class="event-text">Special Occassions</li>
+            </ul>
         </div>
-        <div>
-
-            <div class="text-container">
-                <p class="event-text">Wedding</p>
-                <p class="event-text">Baby Shower</p>
-                <p class="event-text">Parties</p>
-                <p class="event-text">Fastivals</p>
-                <p class="event-text">Special Occassions</p>
-            </div>
-            <div>
-                <!-- <img class="image" src="Photos/Photo01.jpg" alt="Image"> -->
-            </div>
+        <div class="image-div">
+            <img src="Photos/Ph01.jpg"  alt="Your Image">
         </div>
-        </div>
-
+    </div>
 
     <div class="Card03">
-
-        <div class="text-container">
-            <span class="Title-Heading-text ">Mahandi for you</span>
+        <div class="image-div">
+            <img src="Photos/Ph02.jpg"  alt="Your Image">
         </div>
-        <div class="text-container">
-            <p class="event-text">Bridal</p>
-            <p class="event-text">Indian</p>
-            <p class="event-text">Werstarn</p>
-            <p class="event-text">Arabic Design</p>
+        <div class="text-div">
+            <span class="Title-Heading-text ">Henna Design for you</span>
+            <ul>
+                <li class="event-text">Bridal</li>
+                <li class="event-text">Indian</li>
+                <li class="event-text">Werstarn</li>
+                <li class="event-text">Arabic Design</li>
+            </ul>
         </div>
     </div>
 
 
+    <div class="Card04">
 
-    <div class="Card4">
+        <div class="text-container-Brand-Hadding">
+            <span class="big-text">About Henna Work</span>
+        </div>
+        </div>
+            <img src="Photos/Ph03.jpg" alt="">
+            <img src="Photos/Ph04.jpg" alt="">
+            <img src="Photos/Ph05.jpg" alt="">
+            <img src="Photos/Ph06.jpg" alt="">
+            <img src="Photos/Ph02.jpg" alt="">
+            <img src="Photos/Ph01.jpg" alt="">
+        </div>
+
 
     </div>
+    
+    <div class="footer">
+        <h3 class="medium-text">Contact Us</h3>
+        <p class="medium-text">Stay Stitch With Henna</p>
+        <div class="inline-div"><a href="https://wa.me/+13657242826" target="_blank" class="footer-icon "><i class="fab fa-whatsapp"></i></a></div>
+        <div class="inline-div"><p style="margin-left: 5px;">+1(365)7242826</p></div>
+        <div class="footer-icons">
+            <a href="https://www.facebook.com/profile.php?id=61550315759891&mibextid=LQQJ4d" target="_blank" class="footer-icon"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com/henna_by_rutvi?igshid=MzRlODBiNWFlZA==" target="_blank" class="footer-icon"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:mehndibyrutu@gmail.com" class="footer-icon"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+    <!-- Include Font Awesome icons (you need to link this in your HTML) -->
+ 
+
+    <!-- <div class="Card4">
+
+    </div> -->
+    <!-- <div class="Card04">
+        <div class="text-div">
+            <h2>List of Text</h2>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        </div>
+        <div class="image-div">
+            <img src="Photos/Ph01.jpg"  alt="Your Image">
+        </div>
+    </div> -->
+
     </div> 
 </body>
 </html>
