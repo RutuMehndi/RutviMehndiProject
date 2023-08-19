@@ -8,9 +8,10 @@ body {
  /* Mobile-specific styles */
  @media screen and (max-width: 767px) {
 .Card01{
-    /* padding: 4rem; */
+    padding: 4rem;
     width: 100%;
-    background-color: #ffe6cc; /* Dark header background */
+    background-color: #ffffff; /* Dark header background */
+
 
 }
 .Card02{
@@ -19,7 +20,7 @@ body {
     text-align: left;
     display: block; 
     align-items: center; /* Center items vertically */
-    background-color: #ffffff; /* Dark header background */
+    background-color: #ffe6cc; /* Dark header background */
 }
 .Card03{
     padding: 4rem;
@@ -27,7 +28,7 @@ body {
     text-align: left;
     display: block; 
     align-items: center; /* Center items vertically */  
-    background-color: #ffe6cc; /* Dark header background */
+    background-color: #ffffff; /* Dark header background */
 
 
 }
@@ -37,14 +38,15 @@ body {
     text-align: left;
     display: block; 
     align-items: center; /* Center items vertically */
-    background-color: #ffffff; /* Dark header background */
+    background-color: #ffe6cc; /* Dark header background */
 }
 .Card05{
     padding: 4rem;
     width: 100%;
     display: block; 
     align-items: center; /* Center items vertically */
-    background-color: #ffe6cc; /* Dark header background */
+    
+    background-color: #ffffff; /* Dark header background */
     text-align: center;
 }
 .text-container-Brand-Hadding {
@@ -165,7 +167,8 @@ body {
 .Card01{
     /* padding: 4rem; */
     width: 100%;
-    background-color: #ffe6cc; /* Dark header background */
+    
+    background-color: #ffffff; /* Dark header background */
 
 }
 .Card02{
@@ -174,7 +177,7 @@ body {
     text-align: left;
     display: flex; /* Display children in a row */
     align-items: center; /* Center items vertically */
-    background-color: #ffffff; /* Dark header background */
+    background-color: #ffe6cc; /* Dark header background */
 }
 .Card03{
     padding: 4rem;
@@ -314,15 +317,13 @@ body {
 
     .Upper-image {
         width: 100%;
-        height:200px;
-        padding:0;
-        margin: 0;
+        height:auto;
+
     }
 .bootom-image {
         width: 100%;
-        height:200px;
-        padding:0;
-        margin: 0;
+        height:auto;
+
 
 
     }
