@@ -185,7 +185,7 @@ body {
     text-align: left;
     display: flex; /* Display children in a row */
     align-items: center; /* Center items vertically */
-    background-color: #ffe6cc; /* Dark header background */
+    background-color: #ffffff; /* Dark header background */
 
 
 }
@@ -195,10 +195,10 @@ body {
     text-align: left;
     /* display: flex; Display children in a row */
     align-items: center; /* Center items vertically */
-    background-color: #ffffff; /* Dark header background */
+    background-color: #ffe6cc; /* Dark header background */
 }
 .Card05{
-         background-color: #ffe6cc; /* Dark header background */
+    background-color: #ffffff; /* Dark header background */
 
             color: #111;
             padding: 20px 0;
@@ -317,12 +317,12 @@ body {
 
     .Upper-image {
         width: 100%;
-        height:auto;
+        height: 100px;;
 
     }
-.bootom-image {
+    .bootom-image {
         width: 100%;
-        height:auto;
+        height: 100px;
 
 
 
