@@ -367,6 +367,8 @@ body {
     </div>
 
     <div class="Card03">
+        <div id="desktop-content">
+
         <div class="image-div">
             <img src="Photos/Ph02.jpg"  alt="Your Image">
         </div>
@@ -379,6 +381,22 @@ body {
                 <li class="event-text">Arabic Design</li>
             </ul>
         </div>
+        </div>
+        <div id="mobile-content">
+
+            <div class="text-div">
+                <span class="Title-Heading-text ">Henna Design for you</span>
+                <ul>
+                    <li class="event-text">Bridal</li>
+                    <li class="event-text">Indian</li>
+                    <li class="event-text">Werstarn</li>
+                    <li class="event-text">Arabic Design</li>
+                </ul>
+            </div>
+            <div class="image-div">
+                <img src="Photos/Ph02.jpg"  alt="Your Image">
+            </div>
+            </div>
     </div>
 
 
@@ -413,5 +431,14 @@ body {
 
 
     </div> 
+    <script>
+        const DisplaySize =window.innerWidth;
+        console.log(DisplaySize)
+        if (window.innerWidth < 768) { // Example breakpoint for mobile
+            document.getElementById('desktop-content').style.display = 'none';
+        } else {
+            document.getElementById('mobile-content').style.display = 'none';
+        }
+    </script>
 </body>
 </html>
