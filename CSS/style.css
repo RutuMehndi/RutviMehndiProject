@@ -158,6 +158,22 @@ body {
             margin: 70px;
   
         }
+        
+    .Upper-image {
+        width: 100%;
+        height: 50%;
+        margin-bottom: 10px;
+
+    }
+    .bootom-image {
+        margin-top: 10px;
+
+        width: 100%;
+        height: 50%;
+
+
+
+    }
 
     }
 
@@ -311,13 +327,10 @@ body {
   
         }
 
-    }   
-
-
-
+        
     .Upper-image {
         width: 100%;
-        height: 50%;
+        height: 100px;
         margin-bottom: 10px;
 
     }
@@ -325,8 +338,11 @@ body {
         margin-top: 10px;
 
         width: 100%;
-        height: 50%;
+        height: 100px;
 
 
 
     }
+    }   
+
+
