@@ -122,8 +122,10 @@ body {
         }
 
         img {
-            width: 500px;
-            height: 500px;
+            
+            display: block;
+            height: 450px;
+            margin: auto;
         }
 
         .footer-icons {
@@ -292,8 +294,9 @@ body {
         }
 
         img {
-            width: 500px;
-            height: 500px;
+            display: block;
+            height: 450px;
+            margin: auto;
         }
 
         .footer-icons {
